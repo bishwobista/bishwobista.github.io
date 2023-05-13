@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import './Navbar.css'
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const toggle = () => {};
   const hide = () => {
-    setIsVisible(false);
+    // setIsVisible(false);
   };
   const show = () => {
-    setIsVisible(true);
+    // setIsVisible(true);
   };
   const hidestyle = {
-    display: isVisible ? "block" : "none",
+    // display: isVisible ? "block" : "none",
   };
 
   return (

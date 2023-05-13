@@ -1,6 +1,3 @@
-.nav-hidden{
-    display: none;
-}    
-.nav-show{
-    display: block;
+a{
+    cursor: pointer;
 }
