@@ -52,10 +52,7 @@ const route = createBrowserRouter([
 ])
 
 createRoot(document.getElementById("root")).render(
-  <Router basename="/">
-    <RouterProvider router = {route}/>
-  </Router>
-  
+  <RouterProvider router = {route}/>
 )
 
 
