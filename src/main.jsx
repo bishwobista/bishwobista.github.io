@@ -7,6 +7,7 @@ import {
   Link,
   BrowserRouter,
   Outlet,
+  Router,
 } from "react-router-dom";
 import './App.css'
 import About from './routes/About'
@@ -51,7 +52,9 @@ const route = createBrowserRouter([
 ])
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router = {route}/>
+  <Router basename="/">
+    <RouterProvider router = {route}/>
+  </Router>
   
 )
 
