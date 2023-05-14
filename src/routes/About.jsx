@@ -7,3 +7,5 @@ const About = () => {
 }
 
 export default About
+// desc | headshot
+// github api fetch and show stats
