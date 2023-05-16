@@ -1,1 +1,0 @@
-react-icons react-router-dom
