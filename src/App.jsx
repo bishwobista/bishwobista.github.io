@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  useEffect(() => {
+    // Redirect to another site after the component mounts
+    window.location.href = 'https://bishwobista.com.np';
+  }, []);
 
-export default App
+  return <div>Redirecting...</div>;
+};
+
+export default App;
